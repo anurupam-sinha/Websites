@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style2.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Yellowtail&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 2; /* Sit on top */
+          padding-top: 300px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          /*background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+          backdrop-filter: blur(10px);
+        }
+        
+        /* Modal Content */
+        .modal-content {
+          background-color: #fefefe;
+          margin: auto;
+          padding: 20px;
+          border: 1px solid #888;
+          width: 30%;
+          height: 30%;
+          border-radius: 15px;
+        }
+        
+        /* The Close Button */
+        .close {
+          color: #aaaaaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: #000;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        /*Transfer Text*/
+        #transfer-heading{
+          font-size: 50px;
+          margin-bottom: 20px;
+        }
+        #transfer-text{
+          font-size: 20px;
+        }
+
+        </style>
+</head>
+<body>
+    <header class="header">
+        <div class="sparks-logo">
+        <a class="logo-w" href="#">
+            <img class="logo" src="logo-pics/sparks-bank-low-resolution-logo-white-on-black-background.png" alt="Omnifood logo">
+        </a>
+        <h1 class="main-heading">Bank of Sparks</h1>
+    </div>
+        
+    
+    <nav class="main-nav">
+        <ul>
+            <li><a class="main-nav-link" href="#">Home</a></li>
+            <li><a class="main-nav-link" href="#">Help Centre</a></li>
+            <li><a class="main-nav-link" href="#">Atm Network</a></li>
+            <li><a class="main-nav-link" href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+       </header>
+       <div class="full-container">
+        <div class="background-img"></div>
+       <div class="container">
+        <!-- <div class="your-acc-num">
+       <span>Your Account number <div><input class="input" type="number"></div></span>
+      </div>
+       <div class="your-acc-num">
+       <span>Your Name: <div><input class="input" type="text"></div></span> -->
+    
+    </div>
+    <!-- Grid container -->
+<div class="f bg-text">
+  <div class="border-class">
+    <!-- <div class="Recipient-details">
+      <span>Senders Account Number :<div><input class="input" type="number" placeholder="Account Number"></div></span>
+    </div>
+    <div class="Recipient-details">
+        <span> Senders Name : <div><input class="input" type="text" placeholder="Name"></div></span>
+    </div>
+    <div class="Recipient-details">
+      <span> IFSC Code <div><input class="input" type="text" placeholder="IFSC Code"></div></span>
+    </div>
+    <div class="Recipient-details">
+        <span> Amount <div><input class="input" type="number" placeholder="Amount"></div></span>
+    </div> -->
+
+    <div class="Recipient-details">
+      <span><div><input class="input" type="number" placeholder="Your Account Number"></div></span>
+    </div>
+    <div class="Recipient-details">
+        <span><div><input class="input" type="text" placeholder="Your Full Name"></div></span>
+    </div>
+    <div class="Recipient-details">
+      <span><div><input class="input" type="text" placeholder="Your IFSC Code"></div></span>
+    </div>
+    <div class="Recipient-details">
+        <span><div><input class="input" type="number" placeholder="Enter Amount"></div></span>
+    </div>
+  </div>
+  <!-- <div>
+    <div class="Recipient-details">
+      <span>Recipient Account Number :<div><input class="input" type="number" placeholder="Account Number"></div></span>
+    </div>
+    <div class="Recipient-details">
+        <span> Recipient Name : <div><input class="input" type="text"  placeholder="Name"></div></span>
+    </div>
+    <div class="Recipient-details">
+      <span> IFSC Code <div><input class="input" type="text" placeholder="IFSC Code"></div></span>
+    </div>
+    <div class="Recipient-details">
+      <span> Bank Name: <div><input class="input" type="text" placeholder="Bank Name"></div></span>
+    </div>
+
+  </div> -->
+  <div class="recipient-class">
+    <div class="Recipient-details">
+      <span><div><input class="input" type="number" placeholder="Recipient Account Number"></div></span>
+    </div>
+    <div class="Recipient-details">
+        <span><div><input class="input" type="text"  placeholder="Recipient Full Name"></div></span>
+    </div>
+    <div class="Recipient-details">
+      <span><div><input class="input" type="text" placeholder="Recipient IFSC Code"></div></span>
+    </div>
+    <div class="Recipient-details">
+      <span><div><input class="input" type="text" placeholder="Bank Name"></div></span>
+    </div>
+  </div>
+  
+
+  <div class="transfer-row">
+    <div class="transfer-btn" id="myBtn">
+      <span><a href="#">Transfer</a></span>
+    </div>
+</div>
+
+
+    <!-- <div class="Recipient-details">
+        <span>Recipient Account Number :<div><input class="input" type="number"></div></span>
+    </div>
+    <div class="Recipient-details">
+        <span> Recipient Name : <div><input class="input" type="text"></div></span>
+    </div>
+    <div class="Recipient-details">
+        <span> Amount <div><input class="input" type="number"></div></span>
+    </div>
+    <div class="transfer-btn">
+        <button id="myBtn">Transfer</button> -->
+    
+  </div>
+    </div>
+   
+</div>
+</div>
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    <!-- Modal content -->
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="transfer-heading">SUCCESS!</p>
+          <p id="transfer-text">Money transferred to recipient bank account.</p>
+      </div>
+    </div>
+
+
+    <!--Show modal window-->
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // select thr background elements
+        var backgrounds = document.getElementsByClassName("full-container");
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+
+        </script>
+</body>
+</html>
